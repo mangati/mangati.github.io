@@ -18,6 +18,7 @@
 
       gtag('config', 'G-G67HSYZMRQ');
     </script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LcPwaEpAAAAAF4V1HSHDv6svGDPGCjZnzHBkCZQ"></script>
   </head>
   <body>
     <main>
@@ -176,6 +177,7 @@
                     </button>
                   </div>
                   <input type="hidden" name="_gotcha" style="display:none !important">
+                  <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
                 </form>
               </div>
             </div>
@@ -196,5 +198,13 @@
         </div>
       </footer>
     </main>
+    <script>
+      grecaptcha.ready(function() {
+          grecaptcha.execute('6LcPwaEpAAAAAF4V1HSHDv6svGDPGCjZnzHBkCZQ', {action: 'homepage'})
+          .then(function(token) {
+            document.getElementById('captchaResponse').value = token;
+          });
+        });
+    </script>
   </body>
 </html>
