@@ -13,7 +13,7 @@ grecaptcha.ready(function() {
 });
 
 const toggleFormFields = (form, disabled) => {
-  [...form.querySelectorAll('input, text, button')].forEach(elem => elem.disabled = disabled)
+  [...form.querySelectorAll('input, textarea, button')].forEach(elem => elem.disabled = disabled)
 }
 
 const contactForm = document.getElementById('contact-form');
