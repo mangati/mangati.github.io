@@ -157,7 +157,7 @@
                 <p class="py-3 fs-5">Caso deseja receber mais informações sobre nossos produtos utilize o formulário a seguir para entrar em contato conosco. Em breve entraremos em contato.</p>
               </div>
               <div class="col-12 col-md-5 offset-md-1">
-                <form action="https://getform.io/f/jawllngb" method="POST" class="py-4">
+                <form id="contact-form" method="POST" class="py-4">
                   <div class="mb-3">
                     <label class="visually-hidden">Nome</label>
                     <input type="text" name="name" class="form-control form-control-lg" placeholder="Nome" required>
@@ -198,13 +198,6 @@
         </div>
       </footer>
     </main>
-    <script>
-      grecaptcha.ready(function() {
-          grecaptcha.execute('6LcPwaEpAAAAAF4V1HSHDv6svGDPGCjZnzHBkCZQ', {action: 'homepage'})
-          .then(function(token) {
-            document.getElementById('captchaResponse').value = token;
-          });
-        });
-    </script>
+    <script src="js/script.js?_=1709814965133"></script>
   </body>
 </html>
