@@ -35,7 +35,7 @@ contactForm.addEventListener('submit', async (e) => {
       alert(result.detail);
     }
   } catch (e) {
-    alert(e)
+    alert('Ocorreu um erro ao enviar a mensagem');
   }
   toggleFormFields(form, false);
   recaptchaChallenge();
