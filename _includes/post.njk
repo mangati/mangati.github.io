@@ -1,0 +1,18 @@
+---
+layout: base.njk
+---
+<header>
+  <div class="pt-5 pb-3 mb-4">
+    <div class="container py-3">
+      <h1 id="about" class="display-6 fw-bold">{{ title }}</h1>
+      <p class="col-md-8 fs-4">{{ description }}</p>
+    </div>
+  </div>
+</header>
+<article>
+  <section id="posts" class="py-2">
+    <div class="container">
+      {{ content | safe }}
+    </div>
+  </section>
+</article>
