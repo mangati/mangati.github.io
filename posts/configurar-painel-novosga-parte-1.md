@@ -9,9 +9,9 @@ Antes de começar a utilizar o Painel para chamar senhas do NovoSGA é preciso c
 
 ![posts-painel-apps.png](/images/posts-painel-apps.png)
 
-Depois de clicar no botão "Novo app", é preciso preencher os campos de conforme descrito abaixo:
+Depois de clicar no botão `"Novo app"`, é preciso preencher os campos de conforme descrito abaixo:
 
-- **Tipo do aplicativo**: É o tipo de aplicativo no qual estamos integrando com o Painel. No caso do NovoSGA, é preciso escolher a versão correta do mesmo. Para as versões entre 1.0 e 1.5, a opção "NovoSGA V1.X" deverá ser escolhida, já para a versão 2.0 a opção a ser escolhida é "NovoSGA V2.0", e para demais versões a partir da versão 2.1 a opção "NovoSGA V2.1+" é a opção correta.
+- **Tipo do aplicativo**: É o tipo de aplicativo no qual estamos integrando com o Painel. No caso do NovoSGA, é preciso escolher a versão correta do mesmo. Para as versões entre 1.0 e 1.5, a opção `"NovoSGA V1.X"` deverá ser escolhida, já para a versão 2.0 a opção a ser escolhida é `"NovoSGA V2.0"`, e para demais versões a partir da versão 2.1 a opção `"NovoSGA V2.1+"` é a opção correta.
 - **Nome**: Esse campo é utilizado apenas para identificação do cadastro. É um campo de texto livre e deve ser preenchido de forma a melhor identificar o App que está sendo integrado.
 
 Os demais campos variam de acordo com a opção escolhida em **Tipo de aplicativo**.
@@ -66,11 +66,11 @@ Esta mensagem de alerta, basicamente, pode ser exibida pelos seguintes motivos:
 
 ## Conteúdo inseguro
 
-Como já mencionado acima, por padrão o navegador web irá bloqueiar as requisições para endereços HTTP. Para contornar esse bloqueio basta ir nas configurações do site, clicando no ícone ao lado do endereço da página e depois em "Configurações do site":
+Como já mencionado acima, por padrão o navegador web irá bloqueiar as requisições para endereços HTTP. Para contornar esse bloqueio basta ir nas configurações do site, clicando no ícone ao lado do endereço da página e depois em `"Configurações do site"`:
 
 ![posts-painel-apps-site-settings.png](/images/posts-painel-site-settings.png)
 
-Uma nova aba irá abrir com a lista de todas as configurações disponíveis. Procure por "Conteúdo inseguro", e altere o valor para "Permitir".
+Uma nova aba irá abrir com a lista de todas as configurações disponíveis. Procure por `"Conteúdo inseguro"`, e altere o valor para `"Permitir"`.
 
 ![posts-painel-site-settings-insecure-content.png](/images/posts-painel-site-settings-insecure-content.png)
 
