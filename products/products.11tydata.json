@@ -1,0 +1,4 @@
+{
+  "permalink": "/products/{{ page.fileSlug }}.html",
+  "layout": "product.njk"
+}
