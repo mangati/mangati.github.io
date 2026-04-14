@@ -3,6 +3,7 @@ tags: posts
 title: Configurar Painel com o NovoSGA (parte 1)
 description: Tutorial de como integrar o NovoSGA com o Painel Mangati
 layout: post.njk
+date: 2025-10-15
 ---
 
 Antes de começar a utilizar o Painel para chamar senhas do NovoSGA é preciso cadastrar as informações da sua instalação do NovoSGA. Esta etapa é feita no cadastro de Apps: [https://painel.mangati.com/apps/](https://painel.mangati.com/apps/).

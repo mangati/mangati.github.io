@@ -46,6 +46,11 @@ section {
     margin-bottom: 2rem;
 }
 
+#posts .postlist {
+    text-align: initial;
+    font-size: initial;
+}
+
 #posts h2 {
     margin-top: 1.5em;
     margin-bottom: .5em;
@@ -74,4 +79,34 @@ footer .container {
 
 footer a {
     color: #ffffff !important;
+}
+
+.postlist-card {
+    border: 1px solid #e0e0e0;
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.postlist-card:hover {
+    box-shadow: 0 4px 16px rgba(122, 152, 0, 0.18);
+    border-color: rgb(122, 152, 0);
+}
+
+.postlist-card .card-title {
+    color: #222;
+}
+
+.postlist-card .card-footer {
+    background: transparent;
+    border-top: 1px solid #f0f0f0;
+}
+
+.postlist-readmore {
+    color: rgb(122, 152, 0);
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+#recent-posts {
+    background-color: #f8f9fa;
+    border-top: 1px solid #e0e0e0;
 }

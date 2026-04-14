@@ -3,6 +3,7 @@ tags: posts
 title: Configurar Painel com o NovoSGA (parte 2)
 description: Tutorial de como integrar o NovoSGA com o Painel Mangati
 layout: post.njk
+date: 2025-10-15
 ---
 
 Nesta segunda parte do tutorial será demonstrado como configurar os widgets do Painel. Para isso é necessário ter feito o cadastro do NovoSGA (App) conforme descrito na [parte 1 do tutorial](/posts/configurar-painel-novosga-parte-1).

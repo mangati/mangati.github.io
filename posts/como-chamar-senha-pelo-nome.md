@@ -3,6 +3,7 @@ tags: posts
 title: Como chamar a senha pelo nome
 description: Tutorial de como vocalizar o nome do cliente no Painel Mangati
 layout: post.njk
+date: 2025-10-15
 ---
 
 Muitas vezes é necessário chamar a senha pelo número ao invés das letras e números. Nesses casos com uma simples configuração no Painel Mangati você consegue habilitar a chamada de senha pelo nome.
